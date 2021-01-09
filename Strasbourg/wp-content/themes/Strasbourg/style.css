@@ -1,0 +1,315 @@
+/*
+ Theme Name:   Strasbourg
+ Theme URI:    http://strasbourg.sandrine-alcazar.com/Strasbourg/
+ Description:  Strasbourg Child Theme
+ Author:       Sandrine Alcazar
+ Author URI:   http://strasbourg.sandrine-alcazar.com
+ Template:     /hestia
+ Version:      1.0.0
+ */
+
+ /*GENERAL*/
+
+header h1 {
+	font-size:60px;
+}
+					
+/*HEADER*/
+
+#menu-menu-principal li {
+	font-size-adjust:0.5;
+	padding:5px;
+}
+
+/*ACCUEIL*/
+
+.search-form .search-submit {
+	background-color:#E1C1A1;
+	box-shadow:#E1C1A1 0px 14px 26px -12px;
+}
+
+/*ACTUALITES*/
+
+article h6 {
+	display:none	
+}
+		
+article .card-title {
+	font-weight:lighter;
+}
+
+article .btn {
+	font-weight: bold
+}
+
+article .fn {
+	color:#CF215D;
+}
+
+
+/*ACTIVITES DU MOIS*/
+
+.css-events-list {
+	display:flex;
+	flex-direction:column;
+  
+}
+
+.css-events-list h2 {
+	text-align:center;
+	color:#E1C1A1;
+	text-transform:capitalize;
+}
+
+.events-table {
+	margin-bottom:20px;
+	border:2px solid #FEF5D6;
+}
+
+.events-table tr {
+	border:2px solid #FEF5D6;
+  font-size:15px;
+}
+
+.events-table tr:hover {
+	border-left-color: #E1C1A1;
+	border-right-color: #E1C1A1;
+}
+
+.events-table th {
+	text-align:center;
+	background-color:#FEF5D6;
+	margin:15px;
+	font-weight:bold;
+}
+
+#event-time header {
+	background-color:#EFEAEA;
+}
+
+.events-table .event-time{
+	display:flex;
+	width:13%;
+	text-align:center;
+	vertical-align:top;
+	
+}
+
+.events-table .event-title  {
+	width:22%;
+	text-align:center;
+	vertical-align:top;
+	
+}
+
+.events-table .event-description {
+	width:45%;
+	vertical-align:top;
+}
+
+.events-table .event-description p {
+font-size:15px;
+}
+
+
+.events-table .event-reservation {
+	width:20%;
+	text-align:center;
+}
+
+.events-table .event-reservation a {
+	padding:15px;	
+	margin-top:50px;
+	background-color:#E1C1A1;
+	border: 1px solid #FEF5D6;
+	border-radius:5px;
+	box-shadow:#E1C1A1 0px 14px 26px -12px;
+	color: white;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.events-table .event-reservation a:hover {
+	box-shadow:rgb(233, 30, 99) 0px 14px 26px -12px;
+	background-color:rgb(233, 30, 99);
+	color:white;
+}
+
+.em-pagination {
+	font-size:16px;
+	margin-bottom:20px;
+}
+
+.em-pagination .page-numbers {
+	text-align:center;
+	vertical-align:middle;
+	background-color:#E1C1A1;
+	padding:0 9px 6px 9px;
+	margin:2px;
+	border-radius:100%;
+  box-shadow:#E1C1A1 0px 20px      30px -12px;
+	cursor:pointer;
+}
+
+.em-pagination .page-numbers:hover {
+	box-shadow:rgb(233, 30, 99) 0px 20px 30px -12px;
+	background-color:rgb(233, 30, 99);
+	color:white;
+}
+
+
+/*Evenement*/
+
+.elementor-element-487d643d {
+	border-radius:10px;
+}
+
+#nf-form-title-8 {
+	text-align: center;
+	color:#E1C1A1;
+	font-size:40px;
+	text-shadow: #FFF 1px 1px, #000 	-1px 1px, #000 -1px -1px, #000 	 1px -1px;
+}
+
+.nf-form-wrap {
+	font-family:Aref Ruqaa;
+}
+
+#nf-field-104-container {
+	text-align:center;
+}
+
+/*CONTACT*/
+
+#nf-form-title-2 {
+	text-align: center;
+	color:#E1C1A1;
+	font-size:40px;
+	text-shadow: #FFF 1px 1px, #000 	-1px 1px, #000 -1px -1px, #000 	 1px -1px;
+}
+
+.nf-before-form-content {
+	font-size:12px;
+	margin-bottom:30px;
+}
+
+.divider_wrapper {
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+label {
+	text-align:center;
+}
+
+.nf-field-element {
+	padding-right:30px;
+}
+
+#nf-drawer-content {
+	font-size:12px
+}
+ 
+.contact_button_wrapper {
+	text-align:center;
+}
+
+/*FOOTER*/
+
+.col-md-4 {
+	text-align:center
+}
+
+#a2a_follow_widget-3 {
+	text-align:center;
+}
+
+.copyright.pull-right {
+    display:none;
+}
+
+@media screen and (max-width:650px) {
+	
+	/*ACTIVITES DU MOIS*/
+
+.css-events-list {
+	display:flex;
+	flex-direction:column;
+}
+
+.events-table {
+	border:none;
+}
+
+.events-table tr {
+	display:flex;
+	flex-direction:column;
+	border:none;	
+
+}
+
+.events-table thead {
+		display:none;
+	}
+	
+.events-table tbody {
+	border:5px solid #FEF5D6;
+	border-top:none;
+	
+	}
+		
+.events-table td {
+	display:flex;
+	flex-direction:column;
+	}
+
+.events-table .event-time{
+	display:flex;
+	width:100%;
+	margin-bottom:20px;
+	font-weight:bold;
+	font-size:18px;
+	border-top:5px solid #FEF5D6;
+	
+}
+
+.events-table .event-title  {
+	display:flex;
+	width:100%;
+	font-weight:bold;
+	font-size:18px;
+	color:rgb(233, 30, 99);
+	
+}
+
+.events-table .event-description {
+	width:100%;	
+	margin-top:20px;
+}
+
+.events-table .event-reservation {
+	display:flex;
+	width:100%;
+	text-align:center;
+	margin-bottom:40px;
+	margin-top:10px;
+	
+}
+
+.events-table .event-reservation a {
+	width:180px;
+	height:60px;
+	margin:0;
+	align-self:center;
+	padding-top:15px;
+  font-size:18px;
+}
+
+.em-pagination {
+	text-align:center;
+	margin-top:20px;
+}
+
+}
+
+
